@@ -1,0 +1,16 @@
+/* Custom variables */
+:root {
+    --primary-bg-color: #fffa8a;
+    --secondary-bg-color: #dba24a;
+    --yellow: #e1d800;
+    --orange: #e12301;
+    --red: #ce0000;
+}
+
+/* Reset Default Values */
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
