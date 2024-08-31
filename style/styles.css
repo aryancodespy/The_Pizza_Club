@@ -13,4 +13,84 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+/* Header Style*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 9%;
+    position: fixed;
+    width: 100%;
+    background-color: var(--primary-bg-color);
+    z-index: 1;
+}
+
+.navbar {
+    display: block;
+}
+
+.navbar a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    font-size: 18px;
+    color: var(--orange);
+    font-weight: 700;
+    transition: all 500ms;
+}
+
+.navbar a:hover {
+    color: var(--red);
+}
+
+main {
+    padding-top: 70px;
+}
+
+
+section {
+    height: 500px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero .welcome-text {
+    font-size: 1.5rem;
+    color: aliceblue;
+    font-style: italic;
+}
+
+.hero .title {
+    font-size: 4rem;
+    color: aliceblue;
+
+}
+
+.cta-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 600;
+    background-color: var(--primary-bg-color);
+    transition: all 500ms;
+}
+
+.cta-btn:hover {
+    background-color: var(--secondary-bg-color);
+    color: aliceblue;
 }
