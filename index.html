@@ -23,9 +23,12 @@
     <main>
         <!-- Hero Section -->
         <section class="hero" id="hero">
-            <h2 class="welcome-text">Welcome To</h2>
-            <h2 class="title">The Pizza Club</h2>
-            <button class="cta-btn">Order Now</button>
+            <div class="hero-text">
+                <h2 class="welcome-text">We Invite You To Our</h2>
+                <h2 class="title">Pizza Club</h2>
+                <button class="cta-btn">Order Now</button>
+            </div>
+            <div class="hero-image"></div>
         </section>
 
         <!-- Pizaa Section -->
@@ -78,28 +81,30 @@
         <!-- Contact Section -->
         <section class="contact" id="contact">
             <h3 class="section-title">Contact Us</h3>
-            <!-- Location -->
-            <div class="map_holder">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.06239080627!2d-74.30933488107759!3d40.69701926593513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1725091987599!5m2!1sen!2sbd" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <div class="contact-details">
+                <!-- Location -->
+                <div class="map_holder">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387194.06239080627!2d-74.30933488107759!3d40.69701926593513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1725091987599!5m2!1sen!2sbd" width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
 
-            <!-- Timing and Contact Info -->
-            <div class="contact-info">
-                <p class="email">hello@thepizzaclub.com</p>
-                <p class="phone">+123 456 7890</p>
-                <p class="address">123 Street, New York, USA</p>
-            </div>
+                <!-- Timing and Contact Info -->
+                <div class="contact-info">
+                    <p class="email"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASZJREFUSEvt1cErBHEUwPHP3jlQSspNKf4JRzlLDlKKIgfl7LjlphxEUUoOkrMc/ROUs5JSHLizTzOaxuzOrmkum3f8zXvv+953pt801ByNmvvrL8A8mpisqO0BO7iKPllFd5iq2Dwtv8d0HvCZPD3Exh9B2drv4bMbpIA4m8UpRrsEPWMFN8j2KQQM4gNDLcARFkogl1jHGwbwnuS33eARy7hNEhdxgOEc6BWbuEjOZ3CG8TJA2ucE28lEoSqUhbqIUBFKQk1svIfV3ABtN8jmPWEN18lhqIgIdRFzOMZYgcauAGndecvxFkJLROjax1KH99MTIPq8ZDSEvpGSl98zoMsv9iftH1Bq7Jei2i+7uK53MVE6W+eEttd1xb7F5f31y6xF0RedUDYZkAb/FgAAAABJRU5ErkJggg=="/>hello@thepizzaclub.com</p>
+                    <p class="phone"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAYVJREFUSEvF1DFIVXEUx/HP20ShQHTQoS0KQQeRBrfAkogWp7bARSmxsUB0KYqGxmoMl4LaGgRxKsLFIQgcxCXBtUURJAy9/7gX/v15t/fufT08cJf/vef7u+d/zvk1dDkaXeY7F4Eg+hiX8RCHnVSZVnABHzCdQzdxHb/qiqQC3zGawD5hBr/riKQCpyWQt5j9HwJH6C0BLeFZVZG0gu2sByMlkDXc7lTgPe42gexgCvudCszjTQL5hhv4WRUevk+v6BL2EtBVhApqRbNNDmN5J6Kt4EktepMKAmcia+ZWBDzOz8IAxDGEl1jHatkPlHnRK9yPkn7gJnbzs0F8Qbi+EE+zRVxuJlIm0JNZxGdci5LCjjzHx/wZS4CvsYC/lvVfbjqQjeZXXKlw/+9wDydFTiu7vpj/bRjTdiNU8qBdgWKUF3ObKLORWPxFbvd/zlpVECeGxj5CWMa+knI2cCt23ioCBbMfc5jEOIbzF2EZw1AcxOJ1BNrtReUrqgSu0uRa4CLpDBORNRkbOkH4AAAAAElFTkSuQmCC"/>+123 456 7890</p>
+                    <p class="address"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAlxJREFUSEu11cmrj1EYB/DPNacMkTlEhDIryZRhIUNio4iSIRIbFuIPYIMSJSFFkmkhkY0pQ4kimYWMmZUkM+epc3Vd9zeEe3bv2znP93yH5zkVanlV1HJ95QB0wnRMQL98oUs4gt14XOySxQCaYicmFynwA3sxBx9q2lcIoDHOozc+YTPW414u0hVLMR8N8t4R+FIdpBDADszCI4zDjQIs+uJoukA7rMOycgD64Aq+Jp0HI/Rui62p2JBc4GzSfh5eYiRO4TO64GlVkJoYbMBibMSSXLwSpOrZYNcfb7ALMxLISqwuBXAH3bL+17LRM3Ew+bEiH16bdB+fvVmYGIxOTI7jdGb0C6MmBmFqGFcX35ORT9AebfCiisl3U3oeojNaJLavM5uWpRi8RXM0wfuc8w7oWCXz0RsP8nf8j73vEGcDrCiDixiUmqhH0vV2uuF2zM4SLUejxHBVbrxt2exeuI4LORhFAbbkQ2FwGN0KV9G6WgSjg8PkkCbiuSbJuCnJuKgUgzE4hsvp1gPy5vCgMqbhyxkswHPUwc2UpO4YhnOlAML4+9m8KVmaYuMmEhYj5RZ6ltNosWca9uAZovFeFUAI80O+CMUkHC4XIPadwKjcpWPxrdrhhlmOgSkUhwoNxWLTNMZDNFrELtISgy2mZ6x62Jd8CgmjF8LsiOgfq9R7MDSxOIn6iAE4N8c03oGQJEZ0GBuBqHGVAohDU9PY2J/TEo9MvBPD8xifmBNXMATlAMTh8OAAmuVKYX48RNFYRVe5AFEkujWS9TFr/9tY/heJSl3yvzH4K6CfFgx2GUKNzOIAAAAASUVORK5CYII="/>123 Street, New York, USA</p>
+                </div>
 
-            <div class="timing">
-                <ul>
-                    <li><strong>Saturday:</strong> <em>Closed</em></li>
-                    <li><strong>Sunday:</strong> <em>Closed</em></li>
-                    <li><strong>Monday:</strong> <em>9:00 am - 5:00 pm</em></li>
-                    <li><strong>Tuesday:</strong> <em>9:00 am - 5:00 pm</em></li>
-                    <li><strong>Wednesday:</strong> <em>9:00 am - 5:00 pm</em></li>
-                    <li><strong>Thursday:</strong> <em>9:00 am - 5:00 pm</em></li>
-                    <li><strong>Friday:</strong> <em>9:00 am - 5:00 pm</em></li>
-                </ul>
+                <div class="timing">
+                    <ul>
+                        <li><strong>Saturday:</strong> <em>Closed</em></li>
+                        <li><strong>Sunday:</strong> <em>Closed</em></li>
+                        <li><strong>Monday:</strong> <em>9:00 am - 5:00 pm</em></li>
+                        <li><strong>Tuesday:</strong> <em>9:00 am - 5:00 pm</em></li>
+                        <li><strong>Wednesday:</strong> <em>9:00 am - 5:00 pm</em></li>
+                        <li><strong>Thursday:</strong> <em>9:00 am - 5:00 pm</em></li>
+                        <li><strong>Friday:</strong> <em>9:00 am - 5:00 pm</em></li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>
