@@ -1,10 +1,10 @@
 /* Custom variables */
 :root {
-    --primary-bg-color: #fffa8a;
     --secondary-bg-color: #dba24a;
     --yellow: #e1d800;
-    --orange: #e12301;
+    --primary-bg-color: #ff5639;
     --red: #ce0000;
+    --text-color: #fafafa;
 }
 
 /* Reset Default Values */
@@ -61,25 +61,29 @@ section {
 /* Hero Section Style */
 .hero {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../images/hero.jpg");
+    background-color: var(--primary-bg-color);
+}
+
+.hero-image {
+    background-image: url("../images/hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 550px;
+    height: 350px;
+    border: none;
+    border-radius: 15px;
 }
 
 .hero .welcome-text {
     font-size: 1.5rem;
-    color: aliceblue;
     font-style: italic;
 }
 
 .hero .title {
     font-size: 4rem;
-    color: aliceblue;
-
 }
 
 .cta-btn {
@@ -89,13 +93,15 @@ section {
     font-size: 16px;
     margin: 10px 0;
     font-weight: 600;
-    background-color: var(--primary-bg-color);
+    background-color: #fafafa;
     transition: all 500ms;
+    color: var(--primary-bg-color);
 }
 
 .cta-btn:hover {
     background-color: var(--secondary-bg-color);
     color: aliceblue;
+    background-color: var(--red);
 }
 
 /* Products Section */
@@ -153,4 +159,23 @@ section {
 
 .pizza_title {
     font-size: 1.5rem;
+}
+
+/* Contact Section */
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    width: 100%;
+}
+
+.map_holder, .timing, .contact-info {
+    margin: 0 20px;
+    padding: 20px 0;
+}
+
+.timing ul {
+    list-style: none;
 }
